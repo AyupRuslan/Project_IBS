@@ -4,8 +4,6 @@ public class Chief extends Employees implements Manager{
     String project;
     double bonus;
     int empoyees;
-    final static String [] task = {"design", "develop the architecture","review","analisis","coding",
-    "testing","build"};
 
     public Chief() {
     }
