@@ -57,6 +57,18 @@ public abstract class Employees {
     public void setGrade(int grade) {
         this.grade = grade;
     }
+
+    @Override
+    public String toString() {
+        return "Employees{" +
+                "ID=" + ID +
+                ", name='" + name + '\'' +
+                ", salary=" + salary +
+                ", email='" + email + '\'' +
+                ", grade=" + grade +
+                '}';
+    }
+
     public void Show(){
         System.out.println("ID = " + ID + " ,name = " + name + " ,salary = " + salary + ", email = " + email+
                 " ,grade = " + grade);
